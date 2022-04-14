@@ -2,21 +2,30 @@ import React from "react";
 
 const NavBar = () => {
     return (
-        <div className="dood_tal">
-            <div className="dood_tal_1">
-                <div>
-                    <i className="fa fa-house" aria-hidden="true"></i>
+        <div className="home1">
+            <div className="home11">
+                <div className="ballcont1">
+                    <i className="fas fa-home"></i>
+                    <div className="ball"></div>
                 </div>
             </div>
-            <div className="dood_tal_2">
+            <div className="home11">
                 <div>
+                    <i className="fa fa-chart-bar"></i>
+                    <div className="ball"></div>    
                 </div>
             </div>
-            <div className="dood_tal_3">
-                <div></div>
+            <div className="home11">
+                <div>
+                    <i className="fa fa-users"></i>
+                    <div className="ball"></div>
+                </div>
             </div>
-            <div className="dood_tal_4">
-                <div></div>
+            <div className="home11">
+                <div>
+                    <i className="fa fa-cog"></i>
+                    <div className="ball"></div>    
+                </div>
             </div>
         </div>
     )

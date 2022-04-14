@@ -35,3 +35,37 @@ a {
   align-items: center;
   justify-content: center;
 }
+.home1 {
+  position: absolute;
+  bottom: 0%;
+  width: 100vw;
+  height: 10vh;
+  background-color: blanchedalmond;
+  display: flex;
+}
+.home11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  height: 10vh;
+}
+
+i{
+  color: rgb(186, 236, 247, 1);
+  font-size: 4vh;
+  padding-bottom: 1vh;
+}
+.ball {
+  padding-top: 0.5vh;
+  width: 1vh;
+  height: 1vh;
+  background-color: rgb(49, 199, 232);
+  border-radius: 50%;
+  margin: auto;
+  display: none;
+}
+.home11:active .ball{
+  display: block;
+  background-color: blueviolet;
+}
