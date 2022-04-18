@@ -1,71 +1,81 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: black;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
-.body{
-  background-color: aqua;
-}
-
-.dood_tal {
-  background-color: white;
-  position: absolute;
-  bottom: 0%;
-  width: 100vw;
-  height: 10vh;
-  display: flex;
-}
-.dood_tal_1 {
-  width: 25vw;
-  height: 10vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.home1 {
-  position: absolute;
-  bottom: 0%;
-  width: 100vw;
-  height: 10vh;
-  background-color: blanchedalmond;
-  display: flex;
-}
-.home11 {
+body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25vw;
-  height: 10vh;
+  min-height: 100vh;
+  background-color:#EEFCFF;
 }
 
-i{
-  color: rgb(186, 236, 247, 1);
-  font-size: 4vh;
-  padding-bottom: 1vh;
+.navigation {
+  width: 390px;
+  height: 86px;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
+
 .ball {
-  padding-top: 0.5vh;
+  background-color: #31C7E8;
   width: 1vh;
   height: 1vh;
-  background-color: rgb(49, 199, 232);
-  border-radius: 50%;
+  border-radius: 100%;
+  padding-top: 0.5vh;
   margin: auto;
   display: none;
 }
-.home11:active .ball{
+
+.navigation ul {
+  display: flex;
+  /* width: 350px; */
+}
+
+.navigation ul li {
+  position: relative;
+  list-style: none;
+  width: 97.5px;
+  height: 70px;
+  z-index: 1;
+}
+
+.navigation ul li a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.navigation ul li .icon {
+  position: relative;
   display: block;
-  background-color: blueviolet;
+  line-height: 75px;
+  font-size: 1.5em;
+  text-align: center;
+  transition: 0.5s;
+  color: #B5E7F2;
+}
+
+.navigation ul li.active .icon {
+  color: #31C7E8
+}
+
+.navigation ul li.active .ball {
+  display: block;
+}
+
+.indicator {
+  position: absolute;
+  width: 97.5px;
+  height: 70px;
 }
