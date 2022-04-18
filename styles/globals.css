@@ -7,17 +7,17 @@
 
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
   background-color:#EEFCFF;
 }
 
 .navigation {
-  width: 390px;
+  width: 100vw;
   height: 86px;
   background-color: #fff;
-  position: relative;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,4 +78,54 @@ body {
   position: absolute;
   width: 97.5px;
   height: 70px;
+}
+
+.header1 {
+  background-image: url(./Subtract.png), url(./Subtract1.png);
+  width: 100vw;
+  height: 15vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logocont {
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+}
+
+.logo {
+  background-image: url(./logo.png);
+  width: 46vw;
+  height: 10vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 7%;
+  left: 30%;
+
+}
+
+.header {
+  height: 20vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.neg {
+  background-image: url(./hoyr.png);
+  width: 90vw;
+  height: 20vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.negcont {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
 }
