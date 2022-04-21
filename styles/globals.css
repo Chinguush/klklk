@@ -77,14 +77,8 @@ body {
   display: block;
 }
 
-.indicator {
-  position: absolute;
-  width: 97.5px;
-  height: 70px;
-}
-
 .header1 {
-  background-image: url(./Subtract.png), url(./Subtract1.png);
+  background-image: url(./Vector91.png), url(./Vector10.png);
   width: 100vw;
   height: 15vh;
   background-repeat: no-repeat;
