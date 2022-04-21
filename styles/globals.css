@@ -29,14 +29,17 @@ body {
   width: 1vh;
   height: 1vh;
   border-radius: 100%;
-  padding-top: 0.5vh;
+  padding-top: 1vh;
   margin: auto;
   display: none;
 }
 
+.icon {
+  margin-bottom: -2.4vh;
+}
+
 .navigation ul {
   display: flex;
-  /* width: 350px; */
 }
 
 .navigation ul li {
@@ -72,10 +75,4 @@ body {
 
 .navigation ul li.active .ball {
   display: block;
-}
-
-.indicator {
-  position: absolute;
-  width: 97.5px;
-  height: 70px;
 }

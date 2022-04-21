@@ -1,55 +1,53 @@
+import { useRouter } from "next/router";
 import React from "react";
-import { useState } from 'react'
-
+import Link from "next/link";
 
 const NavBar = () => {
-    var [active, setActive] = useState('home')
-    var classActive = 'active'
-    // const list = document.querySelectorAll('.list');
-    // function activeLink() {
-    //     list.forEach((item) => 
-    //     item.classList.remove('active'));
-    //     this.classList.add('active')
-    // }
-    // list.forEach((item) => 
-    // item.addEventListener('click', activeLink));
+    // BAGSH
+    const router = useRouter()
+    const list = '.list';
+    const isActive = (r) => {
+        if(r === router.pathname)
+           return " active"
+        else 
+            return ""
+    }
       
     return (
         <div className="navigation">
             <ul>
-                <li className={"list" + active === "home" ? " active": ""}>
-                    <a href="#" onClick={() => setActive('home')}>
+                <li className={"list" + isActive('/')}>
+                    <a href="/">
                         <span className="icon">
                             <i class="fa-solid fa-house"></i>
                         </span>
                         <span className="ball"></span>
                     </a>
                 </li>
-                <li className={"list" + active === "chart" ? "active": ""}>
-                    <a href="#" onClick={() => setActive('chart')}>
+                <li className={"list" + isActive('/chart')}>
+                    <a href="/chart">
                         <span className="icon">
                             <i class="fa-solid fa-chart-line"></i>
                         </span>
                         <span className="ball"></span>
                     </a>
                 </li>
-                <li className={"list" + active === "group" ? "active": ""}>
-                    <a href="#" onClick={() => setActive('group')}>
+                <li className={"list" + isActive('/group')}>
+                    <a href="/group">
                         <span className="icon">
                             <i class="fa-solid fa-users"></i>
                         </span>
                         <span className="ball"></span>
                     </a>
                 </li>
-                <li className={"list" + active === "settings" ? "active": ""}>
-                    <a href="#" onClick={() => setActive('settings')}>
+                <li className={"list" + isActive('/settings')}>
+                    <a href="/settings">
                         <span className="icon">
                             <i class="fa-solid fa-gear"></i>
                         </span>
                         <span className="ball"></span>
                     </a>
                 </li>
-                <div className="indicator"></div>
             </ul>
         </div> 
     )
