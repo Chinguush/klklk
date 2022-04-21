@@ -75,8 +75,6 @@ body {
 
 .navigation ul li.active .ball {
   display: block;
-<<<<<<< HEAD
-=======
 }
 
 .indicator {
@@ -133,5 +131,4 @@ body {
   height: 20vh;
   display: flex;
   justify-content: center;
->>>>>>> fa79efeedf4bcc8ce52fd19a9739d34fef977489
 }
