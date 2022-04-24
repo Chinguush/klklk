@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function settings() {
   return (
-    <div></div>
+    <div  className='main'>
+      <div className="bodyOfSettings"></div>
+    </div>
   )
 }
