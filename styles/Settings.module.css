@@ -1,0 +1,36 @@
+.father {
+    width: 100vw;
+    height: 74vh;
+    background-color: #fff;
+    display: flex;
+}
+
+.father ul {
+    position: relative;
+}
+
+.father ul li {
+    list-style: none;
+    width: 40vw;
+    height: 10vh;
+}
+
+.father ul li .iconS {
+    font-size: 1.5em;
+    display: block;
+    color: #000;
+}
+
+.father ul li .textS {
+    font-size: 1.5em;
+    display: block;
+    color: #000;
+}
+
+.profile { 
+    height: 20vh;
+    width: 20vh;
+    border-radius: 100%;
+    background-color: red;
+    position: relative;
+}
