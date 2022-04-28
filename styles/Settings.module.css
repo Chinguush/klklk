@@ -7,23 +7,29 @@
 
 .father ul {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    left: 29.7vw;
 }
 
 .father ul li {
     list-style: none;
-    width: 40vw;
+    width: 50vw;
     height: 10vh;
+    display: flex;
+    /* justify-content: space-around; */
 }
 
 .father ul li .iconS {
-    font-size: 1.5em;
+    font-size: 1.3em;
     display: block;
     color: #000;
 }
 
 .father ul li .textS {
-    font-size: 1.5em;
-    display: block;
+    font-size: 1em;
     color: #000;
 }
 
@@ -32,5 +38,7 @@
     width: 20vh;
     border-radius: 100%;
     background-color: red;
-    position: relative;
+    position: absolute;
+    top: 10vh;
+    left: 28vw;
 }

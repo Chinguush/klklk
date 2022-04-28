@@ -10,41 +10,40 @@ const Settings = () => {
           <a href='#'>
             <span className={styles.iconS}>
               <i className="fa-regular fa-circle-user"></i>
+              <span className={styles.textS}> Нүүр хуудас {'>'} </span>
             </span>
-            <span className={styles.textS}> Нүүр хуудас {'>'} </span>
           </a>
         </li>
-        {/*  */}
         <li className={styles.group}>
           <a href='#'>
             <span className={styles.iconS}>
               <i class="fa-solid fa-user-group"></i>
+              <span className={styles.textS}> Бүлэг {'>'} </span>
             </span>
-            <span className={styles.textS}> Бүлэг {'>'} </span>
           </a>
         </li>
         <li className={styles.currency}>
           <a href='#'>
             <span  className={styles.iconS}>
               <i class="fa-brands fa-bitcoin"></i>
+              <span className={styles.textS}> Тэмдэг {'>'} </span>
             </span>
-            <span className={styles.textS}> Тэмдэг {'>'} </span>
           </a>
         </li>
         <li className={styles.addCard}>
           <a href='#'>
             <span  className={styles.iconS}>
-              <i class="fa-solid fa-credit-card"></i>  
-            </span>
-            <span className={styles.textS}> Карт нэмэх {'>'} </span>
+              <i class="fa-solid fa-credit-card"></i>
+              <span className={styles.textS}> Карт нэмэх {'>'} </span>
+            </span>            
           </a>
         </li>
         <li className={styles.logOut}>
           <a href='#'>
             <span  className={styles.iconS}>
-              <i class="fa-solid fa-right-from-bracket"></i>
+              <i class="fa-solid fa-right-from-bracket"></i>   
+              <span className={styles.textS}> Гарах {'>'} </span>
             </span>
-            <span className={styles.textS}> Гарах {'>'} </span>
           </a>
         </li>
       </ul>
