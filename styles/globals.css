@@ -86,7 +86,7 @@ body {
 /* navbar code ends and main layout starts*/
 
 .header1 {
-  background-image: url(./Vector91.png), url(./Vector10.png);
+  background-image: url(./top.png), url(./top1.png);
   width: 100vw;
   height: 15vh;
   background-repeat: no-repeat;
