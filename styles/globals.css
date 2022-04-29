@@ -20,7 +20,7 @@ body {
 /* navbar code starts*/
 .navigation {
   width: 100vw;
-  height: 86px;
+  height: 8vh;
   background-color: #fff;
   position: absolute;
   bottom: 0%;
