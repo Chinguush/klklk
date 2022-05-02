@@ -3,9 +3,10 @@ import Layout from "../components/layout"
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
+    <div className="appp">
+      <Layout></Layout>
       <Component {...pageProps} />
-    </Layout>
+    </div>
   )
 }
 

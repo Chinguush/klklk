@@ -12,14 +12,13 @@ body {
   background-color: #eefcff;
 }
 
-.container.hide {
+.container {
   display: table;
   margin: 0;
   padding: 0;
-  display: none;
 }
 /* navbar code starts*/
-.navigation.active {
+.navigation {
   width: 100vw;
   height: 8vh;
   background-color: #fff;
@@ -29,7 +28,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
 }
 
 .ball {
@@ -85,8 +83,6 @@ body {
   display: block;
 }
 
-/* navbar code ends and main layout starts*/
-
 .header1 {
   background-image: url(./top.png), url(./top1.png);
   width: 100vw;
@@ -101,10 +97,6 @@ body {
   justify-content: center;
   display: flex;
   top: 7vh;
-}
-
-.logocont.hide {
-  display: none;
 }
 
 .logo {
@@ -137,11 +129,7 @@ body {
   border-radius: 25px;
 }
 
-.negcont.hide {
-  display: none;
-}
-
-.negcont {
+.negcont{
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -172,4 +160,17 @@ body {
 .neg12 {
   color: rgba(255, 255, 255, 0.6);
   font-size: small;
+}
+
+.alga.hide {
+  display: none;
+}
+
+.neg.hide {
+  display: none;
+}
+
+.appp {
+  width: 100vw;
+  height: 100vh;
 }

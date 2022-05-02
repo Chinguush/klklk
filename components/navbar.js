@@ -11,7 +11,7 @@ const Navbar = () => {
             return ""
     } 
     return (
-        <div className={"navigation" + isActive('/login')}>
+        <div className="navigation">
             <ul>
                 <li className={"list" + isActive('/')}>
                     <a href="/">

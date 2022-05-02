@@ -11,18 +11,18 @@ const Layout = ({children}) => {
             return ""
     }
     return (
-        <div className={"container" + isActive('/login')}>
-            <div>
+        <div className="container">
+            <div className={("alga" + isActive('/login') || ("alga" + isActive('/create_acc')))}>
                 <div className="header">
                     <div className="header1">                        
                     </div>
-                <div className={"logocont" + isActive('/settings')}>
+                <div className="logocont">
                     <div className="logo">
                     </div>
                 </div>
                 </div>
-                <div className={"negcont" + isActive('/settings')}>
-                    <div className="neg">
+                <div className="negcont">
+                    <div className={("neg" + isActive('/settings'))}>
                         <div className="neg1">
                             <div className="neg11">
                                 ₮ 3'500'000
@@ -37,9 +37,9 @@ const Layout = ({children}) => {
                         </div>
                     </div>
                 </div>
-            </div>
             {children}
             <Navbar></Navbar>
+            </div>
         </div>
     )
 }
