@@ -1,4 +1,4 @@
-.father {
+/* .father {
     width: 100vw;
     height: 74vh;
     background-color: #fff;
@@ -19,15 +19,20 @@
     width: 50vw;
     height: 10vh;
     display: flex;
+<<<<<<< HEAD
 }
+=======
+    /* justify-content: space-around; */
+/* } */
+>>>>>>> ffac9f48607ff4b9921d37f9815d642526bb64f6
 
-.father ul li .iconS {
+/* .father ul li .iconS {
     font-size: 1.3em;
     display: block;
     color: #000;
-}
+} */
 
-.father ul li .textS {
+/* .father ul li .textS {
     font-size: 1em;
     color: #000;
     display: flex;
@@ -46,4 +51,38 @@
     position: absolute;
     top: 10vh;
     left: 28vw;
+} */
+
+.goy {
+    width: 100vw;
+    position: absolute;
+    top: 8%;
+}
+
+.goyzuragbagtaamj {
+    display: flex;
+    height: 156px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.goyzurag {
+    width: 156px;
+    height: 156px;
+    background-color: aqua;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.goyzuraas {
+    width: 117px;
+    height: 1px;
+    background-color: black;
+}
+
+.goyzuraas1 {
+    width: 117px;
+    height: 1px;
+    background-color: black;
 }
