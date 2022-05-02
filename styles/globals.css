@@ -12,13 +12,14 @@ body {
   background-color: #eefcff;
 }
 
-.container {
+.container.hide {
   display: table;
   margin: 0;
   padding: 0;
+  display: none;
 }
 /* navbar code starts*/
-.navigation {
+.navigation.active {
   width: 100vw;
   height: 8vh;
   background-color: #fff;
@@ -28,6 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 
 .ball {
@@ -136,10 +138,6 @@ body {
 }
 
 .negcont.hide {
-  width: 100vw;
-  height: 20vh;
-  display: flex;
-  justify-content: center;
   display: none;
 }
 

@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 
 const Layout = ({children}) => {
     const router = useRouter()
-    const list = '.list';
     const isActive = (r) => {
         if(r === router.pathname)
            return " hide"
@@ -12,7 +11,7 @@ const Layout = ({children}) => {
             return ""
     }
     return (
-        <div className="container">
+        <div className={"container" + isActive('/login')}>
             <div>
                 <div className="header">
                     <div className="header1">                        
