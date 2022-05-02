@@ -91,12 +91,13 @@ body {
   background-size: cover;
 }
 
-.logocont {
+.logocont.hide {
   width: 100vw;
   position: absolute;
   justify-content: center;
   display: flex;
   top: 7vh;
+  display: none;
 }
 
 .logo {
@@ -129,10 +130,11 @@ body {
   border-radius: 25px;
 }
 
-.negcont{
+.negcont.hide{
   width: 100vw;
   display: flex;
   justify-content: center;
+  display: none;
 }
 
 .neg11 {
