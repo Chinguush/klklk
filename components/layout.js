@@ -12,17 +12,17 @@ const Layout = ({children}) => {
     }
     return (
         <div className="container">
-            <div className={("alga" + isActive('/login') || ("alga" + isActive('/create_acc')))}>
+            <div className={("alga" + isActive('/login') && ("alga" + isActive('/create_acc')))}>
                 <div className="header">
                     <div className="header1">                        
                     </div>
-                <div className="logocont">
+                <div className={"logocont" + isActive('/settings')}>
                     <div className="logo">
                     </div>
                 </div>
                 </div>
-                <div className="negcont">
-                    <div className={("neg" + isActive('/settings'))}>
+                <div className={"negcont" + isActive('/settings')}>
+                    <div className="neg">
                         <div className="neg1">
                             <div className="neg11">
                                 ₮ 3'500'000
