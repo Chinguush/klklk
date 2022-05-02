@@ -1,0 +1,22 @@
+.laana {
+    background-image: linear-gradient(rgb(49, 199, 232), rgb(63, 197, 255), rgb(51, 142, 222), rgb(40, 89, 191), rgb(30, 43, 164));
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.laana1 {
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 {
+    background-image: url(../styles/logo2.png);
+    width: 50vw;
+    height: 10vh;
+    background-repeat: no-repeat;
+}
