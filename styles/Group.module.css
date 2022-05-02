@@ -1,0 +1,63 @@
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.negcont {
+    width: 100vw;
+    height: 14vh;
+    margin-top: 4vh;
+    display: flex;
+}
+
+.neg {
+    width: 80vw;
+    height: 10vh;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    margin-left: auto;
+}
+
+.hoyrcont {
+    width: 100vw;
+    height: 14vh;;
+    display: flex;
+}
+
+.hoyr {
+    width: 80vw;
+    height: 10vh;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+}
+  
+.guravcont {
+    width: 100vw;
+    height: 14vh;
+    display: flex;
+}
+
+.gurav {
+    width: 80vw;
+    height: 10vh;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+}
+
+.dorovcont {
+    width: 100vw;
+    height: 14vh;
+    display: flex;
+}
+
+.dorov {
+    width: 80vw;
+    height: 10vh;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+}

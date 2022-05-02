@@ -10,23 +10,29 @@ const Settings = () => {
           <a href='#'>
             <span className={styles.iconS}>
               <i className="fa-regular fa-circle-user"></i>
-              <span className={styles.textS}> Нүүр хуудас {'>'} </span>
+              <span className={styles.textS}> Нүүр хуудас
+                <i class="fa-solid fa-chevron-right"></i>
+              </span>
             </span>
           </a>
         </li>
         <li className={styles.group}>
           <a href='#'>
             <span className={styles.iconS}>
-              <i class="fa-solid fa-user-group"></i>
-              <span className={styles.textS}> Бүлэг {'>'} </span>
+              <i className="fa-solid fa-user-group"></i>
+              <span className={styles.textS}> Бүлэг
+                <i className="fa-solid fa-chevron-right"></i>
+              </span>
             </span>
           </a>
         </li>
         <li className={styles.currency}>
           <a href='#'>
             <span  className={styles.iconS}>
-              <i class="fa-brands fa-bitcoin"></i>
-              <span className={styles.textS}> Тэмдэг {'>'} </span>
+              <i className="fa-brands fa-bitcoin"></i>
+              <span className={styles.textS}> Тэмдэг 
+                <i className="fa-solid fa-chevron-right"></i>
+              </span>
             </span>
           </a>
         </li>
@@ -34,7 +40,9 @@ const Settings = () => {
           <a href='#'>
             <span  className={styles.iconS}>
               <i class="fa-solid fa-credit-card"></i>
-              <span className={styles.textS}> Карт нэмэх {'>'} </span>
+              <span className={styles.textS}> Карт нэмэх 
+                <i className="fa-solid fa-chevron-right"></i>
+              </span>
             </span>            
           </a>
         </li>
@@ -42,7 +50,9 @@ const Settings = () => {
           <a href='#'>
             <span  className={styles.iconS}>
               <i class="fa-solid fa-right-from-bracket"></i>   
-              <span className={styles.textS}> Гарах {'>'} </span>
+              <span className={styles.textS}> Гарах
+               <i className="fa-solid fa-chevron-right"></i>
+              </span>
             </span>
           </a>
         </li>

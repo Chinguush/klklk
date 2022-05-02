@@ -19,7 +19,6 @@
     width: 50vw;
     height: 10vh;
     display: flex;
-    /* justify-content: space-around; */
 }
 
 .father ul li .iconS {
@@ -31,6 +30,12 @@
 .father ul li .textS {
     font-size: 1em;
     color: #000;
+    display: flex;
+    gap: 10vw;
+}
+
+.father span {
+    width: 70vw;
 }
 
 .profile { 
