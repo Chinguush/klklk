@@ -4,8 +4,66 @@ import styles from '../styles/Settings.module.css'
 const Settings = () => {
   return (
     <div className={styles.father}>
+<<<<<<< HEAD
       <div className={styles.goy}>
         <div className={styles.goyzuragbagtaamj}>
+=======
+      <div className={styles.profile}></div>
+      <ul>
+        <li className={styles.homePage}>
+          <a href='#'>
+            <span className={styles.iconS}>
+              <i className="fa-regular fa-circle-user"></i>
+              <span className={styles.textS}> Нүүр хуудас
+                <i id="1" class="fa-solid fa-chevron-right"></i>
+              </span>
+            </span>
+          </a>
+        </li>
+        <li className={styles.group}>
+          <a href='#'>
+            <span className={styles.iconS}>
+              <i className="fa-solid fa-user-group"></i>
+              <span className={styles.textS}> Бүлэг
+              </span>
+              <i id="2" className="fa-solid fa-chevron-right"></i>
+            </span>
+          </a>
+        </li>
+        <li className={styles.currency}>
+          <a href='#'>
+            <span  className={styles.iconS}>
+              <i className="fa-brands fa-bitcoin"></i>
+              <span className={styles.textS}> Тэмдэг 
+                <i id="3" className="fa-solid fa-chevron-right"></i>
+              </span>
+            </span>
+          </a>
+        </li>
+        <li className={styles.addCard}>
+          <a href='#'>
+            <span  className={styles.iconS}>
+              <i class="fa-solid fa-credit-card"></i>
+              <span className={styles.textS}> Карт нэмэх 
+                <i id="4" className="fa-solid fa-chevron-right"></i>
+              </span>
+            </span>            
+          </a>
+        </li>
+        <li className={styles.logOut}>
+          <a href='#'>
+            <span  className={styles.iconS}>
+              <i class="fa-solid fa-right-from-bracket"></i>   
+              <span className={styles.textS}> Гарах
+               <i id="5" className="fa-solid fa-chevron-right"></i>
+              </span>
+            </span>
+          </a>
+        </li>
+      </ul>
+    <div className={styles.goy}>
+      <div className={styles.goyzuragbagtaamj}>
+>>>>>>> a7a6c826ff71ff4d8ea2a2df5881412b6e8c55ad
           <div className={styles.goyzuraas}>
           </div>
           <div className={styles.goyzurag}>
