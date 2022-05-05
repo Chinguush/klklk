@@ -1,7 +1,10 @@
 import React from 'react'
+import styles from '../styles/Chart.module.css'
 
-export default function Chart() {
-  return (
+const Chart = () => {
+  return(
     <div></div>
   )
 }
+
+export default Chart;

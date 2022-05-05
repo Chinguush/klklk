@@ -12,7 +12,7 @@ const Layout = ({children}) => {
     }
     return (
         <div className="container">
-            <div className={("alga" + isActive('/login') && ("alga" + isActive('/create_acc')))}>
+            <div className={("alga" + isActive('/login') || ("alga" + isActive('/create_acc')))}>
                 <div className="header">
                     <div className="header1">                        
                     </div>
