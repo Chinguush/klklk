@@ -1,33 +1,51 @@
+.father {
+  width: 100%;
+}
+
 .goy {
-    width: 100vw;
-    position: absolute;
-    top: 8%;
+  width: 100vw;
+  position: absolute;
+  top: 8%;
 }
 
 .goyzuragbagtaamj {
-    display: flex;
-    height: 156px;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  height: 156px;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .goyzurag {
-    width: 156px;
-    height: 156px;
-    background-color: aqua;
-    border-radius: 100%;
-    border: 1px solid black;
+  width: 156px;
+  height: 156px;
+  background-color: aqua;
+  border-radius: 100%;
+  border: 2px solid white;
 }
 
 .goyzuraas {
-    width: 117px;
-    height: 1px;
-    background-color: black;
+  width: 44.5%;
+  height: 1px;
+  background-color: grey;
 }
 
 .goyzuraas1 {
-    width: 117px;
-    height: 1px;
-    background-color: black;
+  width: 44.5%;
+  height: 1px;
+  background-color: grey;
+}
+
+.father ul li {
+  position: relative;
+  top: 15vh;
+  left: 10vw;
+  font-size: x-large;
+  font-weight: 100;
+  list-style: none;
+}
+
+.textS {
+  position: relative;
+  left: 10vw;
 }
