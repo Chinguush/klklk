@@ -11,7 +11,7 @@ const Settings = () => {
             <span className={styles.iconS}>
               <i className="fa-regular fa-circle-user"></i>
               <span className={styles.textS}> Нүүр хуудас
-                <i class="fa-solid fa-chevron-right"></i>
+                <i id="1" class="fa-solid fa-chevron-right"></i>
               </span>
             </span>
           </a>
@@ -21,8 +21,8 @@ const Settings = () => {
             <span className={styles.iconS}>
               <i className="fa-solid fa-user-group"></i>
               <span className={styles.textS}> Бүлэг
-                <i className="fa-solid fa-chevron-right"></i>
               </span>
+              <i id="2" className="fa-solid fa-chevron-right"></i>
             </span>
           </a>
         </li>
@@ -31,7 +31,7 @@ const Settings = () => {
             <span  className={styles.iconS}>
               <i className="fa-brands fa-bitcoin"></i>
               <span className={styles.textS}> Тэмдэг 
-                <i className="fa-solid fa-chevron-right"></i>
+                <i id="3" className="fa-solid fa-chevron-right"></i>
               </span>
             </span>
           </a>
@@ -41,7 +41,7 @@ const Settings = () => {
             <span  className={styles.iconS}>
               <i class="fa-solid fa-credit-card"></i>
               <span className={styles.textS}> Карт нэмэх 
-                <i className="fa-solid fa-chevron-right"></i>
+                <i id="4" className="fa-solid fa-chevron-right"></i>
               </span>
             </span>            
           </a>
@@ -51,7 +51,7 @@ const Settings = () => {
             <span  className={styles.iconS}>
               <i class="fa-solid fa-right-from-bracket"></i>   
               <span className={styles.textS}> Гарах
-               <i className="fa-solid fa-chevron-right"></i>
+               <i id="5" className="fa-solid fa-chevron-right"></i>
               </span>
             </span>
           </a>
