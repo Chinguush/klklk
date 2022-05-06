@@ -33,6 +33,8 @@
     height: 15vh;
     border-bottom:1px solid white; 
     margin-bottom: -6vh;
+    position: relative;
+    top: 1vh;
 }
 
 .pass{
@@ -42,22 +44,40 @@
     border-bottom:1px solid white;
 }
 
+.pass1{
+    display: grid;
+    width: 70vw;
+    height: 15vh;
+    border-bottom:1px solid white;
+    margin-top: -6vh;
+}
+
 .mail input{
     position: relative;
-    left: 20vw;
+    left: 15vw;
     border: none;
     background: local;
 }
 
 .pass input{
     position: relative;
-    left: 20vw;
+    left: 15vw;
     background: local;
     border: none;
     text-decoration-color: white;
     margin-bottom: 3vh;
+    width: 70vw;
 }
 
+.pass1 input{
+    position: relative;
+    left: 15vw;
+    background: local;
+    border: none;
+    text-decoration-color: white;
+    margin-bottom: 3vh;
+    width: 70vw;
+}
 
 .mail i{
     position: relative;
@@ -81,32 +101,37 @@
 
 .pass input::placeholder{
     color: white;
-    font-size: larger;
+    font-size: large;
     height: 10vh;
-    width: 20vh;
+    width: 30vh;
     margin-bottom: 1vh;
 }
+
+.pass1 i{
+    position: relative;
+    top:10vh;
+    left: 5vw;
+    color: white;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 2vh;
+}
+
+.pass1 input::placeholder{
+    color: white;
+    font-size: large;
+    height: 10vh;
+    width: 30vh;
+    margin-bottom: 1vh;
+}
+
 
 .mail input::placeholder{
     color: white;
-    font-size: larger;
+    font-size: large;
     height: 10vh;
     width: 20vh;
     margin-bottom: 1vh;
-}
-
-.check input{
-    position: relative;
-    left: 0vw;
-    height: 2vh;
-    width: 2vh;
-    border: none;
-}
-
-.check label{
-    color: white;
-    position: relative;
-    left: 9vw;
 }
 
 .submit{
@@ -121,14 +146,4 @@
     border-radius: 50px;
     border: none;
     color: #34416F;
-}
-
-.create{
-    position: relative;
-    top: 3vh;
-    left: 19vw;
-}
-
-.create a{
-    color: white;
 }

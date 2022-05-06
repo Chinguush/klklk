@@ -13,8 +13,8 @@ const Navbar = () => {
     return (
         <div className="navigation">
             <ul>
-                <li className={"list" + isActive('/')}>
-                    <a href="/">
+                <li className={"list" + isActive('/home')}>
+                    <a href="/home">
                         <span className="icon">
                             <i class="fa-solid fa-house"></i>
                         </span>

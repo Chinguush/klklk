@@ -12,7 +12,8 @@ const Layout = ({children}) => {
     }
     return (
         <div className="container">
-            <div className={("alga" + isActive('/login') || ("alga" + isActive('/create_acc')))}>
+            <div className={"suga" + isActive('/create_acc')}>
+            <div className={"alga" + isActive('/')}>
                 <div className="header">
                     <div className="header1">                        
                     </div>
@@ -39,6 +40,7 @@ const Layout = ({children}) => {
                 </div>
             {children}
             <Navbar></Navbar>
+            </div>
             </div>
         </div>
     )

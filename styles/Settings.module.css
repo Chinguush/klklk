@@ -7,15 +7,14 @@
   position: absolute;
   top: 8%;
 }
-<<<<<<< HEAD
-  
-  .goyzuragbagtaamj {
+ 
+.goyzuragbagtaamj {
     display: flex;
     height: 156px;
     width: 100vw;
     justify-content: center;
     align-items: center;
-  }
+}
   
   .goyzurag {
     width: 20vh;
@@ -108,47 +107,15 @@
 .arrow5{
     margin-top: 5vh;
 }
-=======
 
-.goyzuragbagtaamj {
-  display: flex;
-  height: 156px;
-  width: 100vw;
-  justify-content: center;
-  align-items: center;
+.arrow5 i {
+    color: black;
 }
 
-.goyzurag {
-  width: 156px;
-  height: 156px;
-  background-color: aqua;
-  border-radius: 100%;
-  border: 2px solid white;
+.text5 a{
+    color: black;
 }
 
-.goyzuraas {
-  width: 44.5%;
-  height: 1px;
-  background-color: grey;
+.icon5 a{
+    color: black;
 }
-
-.goyzuraas1 {
-  width: 44.5%;
-  height: 1px;
-  background-color: grey;
-}
-
-.father ul li {
-  position: relative;
-  top: 15vh;
-  left: 10vw;
-  font-size: x-large;
-  font-weight: 100;
-  list-style: none;
-}
-
-.textS {
-  position: relative;
-  left: 10vw;
-}
->>>>>>> a7a6c826ff71ff4d8ea2a2df5881412b6e8c55ad
