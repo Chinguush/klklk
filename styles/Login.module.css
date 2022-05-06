@@ -1,7 +1,7 @@
 .laana {
     background-image: linear-gradient(rgb(49, 199, 232), rgb(63, 197, 255), rgb(51, 142, 222), rgb(40, 89, 191), rgb(30, 43, 164));
-    width: 100vw;
-    height: 100vh;
+    width: 110vw;
+    height: 109.8vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
@@ -29,15 +29,15 @@
 
 .mail{
     display: grid;
-    width: 70vw;
     height: 15vh;
+    width: 55vw;
     border-bottom:1px solid white; 
     margin-bottom: -6vh;
 }
 
 .pass{
     display: grid;
-    width: 70vw;
+    width: 55vw;
     height: 15vh;
     border-bottom:1px solid white;
 }

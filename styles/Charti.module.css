@@ -14,7 +14,7 @@
     margin-top: 2vh;
 }
 
-.income{
+.expense{
     height: 5vh;
     width: 40vw;
     display: flex;
@@ -22,12 +22,12 @@
     justify-content: center;
 }
 
-.income a{
+.expense a{
     color: #48CBE8;
     font-size: large;
 }
 
-.expense{
+.income{
     height: 5vh;
     width: 40vw;
     background-color: #31C7E8;

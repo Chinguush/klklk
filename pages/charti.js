@@ -1,18 +1,18 @@
 import React from 'react'
-import styles from '../styles/Chart.module.css'
+import styles from '../styles/Charti.module.css'
 
 const Chart = () => {
   return(
     <div className={styles.cont}>
       <div className={styles.toggler}>
-        <a href='/charti'>
-          <div className={styles.income}>
+        <div className={styles.income}>
             Орлого
-          </div>
-        </a>
-        <div className={styles.expense}>
-          Зарлага
         </div>
+        <a href='/chart'>
+            <div className={styles.expense}>
+                Зарлага
+            </div>
+        </a>
       </div>
       <div className={styles.row1}>
         <div className={styles.item1}>
